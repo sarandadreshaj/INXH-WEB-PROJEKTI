@@ -17,6 +17,8 @@
     font-family: 'Baloo 2', cursive;
  
 }
+
+/*LISTA*/
 #lista {
     display: flex;
     list-style: none;
