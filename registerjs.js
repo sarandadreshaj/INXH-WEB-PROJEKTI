@@ -16,13 +16,13 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
+/*
 //SIGN IN VALIDATION
 var button = document.getElementById("submit");
 var usernameMsg =document.getElementById("usernameMsg");
 var passwordMsg = document.getElementById("passwordMsg");
-var usernameRegex = /[a-z]+[.]+[a-z]+/;
-var passwordRegex = /^[A-Z]\w+[a-z]\d{3}/
+var usernameRegex = /^[A-Z]\w+[._-]?\w+/;
+var passwordRegex = /^[A-Z][a-z]{5}\d{3}[!*._-]{1}/;
 
 button.addEventListener("click", function(event){
   var username = document.getElementById("f1").value;
@@ -35,7 +35,7 @@ button.addEventListener("click", function(event){
     if(usernameRegex.test(username)){
         usernameMsg.innerText="";
     }else{
-        usernameMsg.innerText="* Username must be example.example";
+        usernameMsg.innerText="* Please fill the username field correctly (ex. john123)";
         event.preventDefault();
     }
 
@@ -49,16 +49,16 @@ button.addEventListener("click", function(event){
       passwordMsg.innerText = "";
     } else {
       passwordMsg.innerText =
-        "*Password should start with a capital and end with 3 numbers";
+        "* Your password must contain  1 uppercase, 5 lowercase letters, 3 digits and 1 symbol [!*-_.]";
       event.preventDefault();
     }
   }
 });
-
+*/
 
 
 //REGISTER VALIDATION
-/*
+
 var buttonn = document.getElementById("submitt");
 
 var fnameMsg =document.getElementById("fnameMsg");
@@ -67,7 +67,7 @@ var userMsg = document.getElementById("userMsg");
 var emailMsg = document.getElementById("emailMsg");
 //var emailMsg = document.getElementById("ageMsg");
 var pswMsg = document.getElementById("pswMsg");
-var confirmpswMsg = document.getElementById("confirmpswMsg");
+//var confirmpswMsg = document.getElementById("confirmpswMsg");
 
 
 var userRegex = /^[A-Z]\w+[._-]?\w+/;
@@ -155,7 +155,3 @@ if(psw == "" || psw == null){
 
 
 });
-*/
-
-
-

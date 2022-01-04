@@ -26,7 +26,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     height: auto;
-    width: 400px;
+    width: 450px;
     
 }
 #ikone{
@@ -77,6 +77,38 @@
     margin-bottom: 30px;
     
 }
+.btn{
+    border: 1px solid #28a5a0;;
+    background: none;
+    font-size: 20px;
+    padding: 7px 35px;
+    cursor: pointer;
+    transition: 0,8s;
+    color: #28a5a0;;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.btn:hover{
+    color: #fff;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #28a5a0;;
+    z-index: -1;
+    transition: 0.8s;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.btn:hover::before{
+    height: 180% ;
+}
+
+
 
 .delivery2{
     width: 380px;
@@ -89,9 +121,8 @@
 
 }
 .karta{
-    padding: 2px 16px;
     justify-content: center;
-    text-align: center;
+    flex-wrap: wrap;
 }
 .fotoLibra{
     width: 248px;
@@ -104,6 +135,16 @@
 }
 h3{
     color:#23908c;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.cmimi{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    margin-left: 0;
+    margin-right: 0px;
 }
 
 
@@ -428,7 +469,7 @@ h4{
   .forma{
       width: 250px;
   }
-  .submit{
+  #submit{
     border: solid 2px black;
     color: black; 
     background-color: transparent;
@@ -444,7 +485,29 @@ h4{
     margin-top: 7px;
     
   }
-  .submit:hover {
+  #submit:hover {
+    font-size: 15px;
+    background: rgba(239, 207, 165, 0.5);
+  }
+
+  #submitt{
+    border: solid 2px black;
+    color: black; 
+    background-color: transparent;
+    border-radius: 9px;
+    transition-duration: 0.4s;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 7px;
+    
+  }
+
+  #submitt:hover {
     font-size: 15px;
     background: rgba(239, 207, 165, 0.5);
   }
@@ -535,10 +598,45 @@ h4{
     background-size: 20px;
     transition: box-shadow .3s;
 }
+#f8{
+    border-bottom: 2px solid black ;
+    padding-left: 25px;
+    background: url("img/padlock.png") no-repeat left;
+    background-size: 20px;
+    transition: box-shadow .3s;
+}
+#f9{
+    border-bottom: 2px solid black ;
+    padding-left: 25px;
+    background: url("img/padlock.png") no-repeat left;
+    background-size: 20px;
+    transition: box-shadow .3s;
+}
   #f1:hover{
     box-shadow: 2px 2px 2px #606060;
   }
   #f2:hover{
+    box-shadow: 2px 2px 2px #606060;
+  }
+  #f3:hover{
+    box-shadow: 2px 2px 2px #606060;
+  }
+  #f6:hover{
+    box-shadow: 2px 2px 2px #606060;
+  }
+  #f5:hover{
+    box-shadow: 2px 2px 2px #606060;
+  }
+  #f4:hover{
+    box-shadow: 2px 2px 2px #606060;
+  }
+  #f7:hover{
+    box-shadow: 2px 2px 2px #606060;
+  }
+  #f8:hover{
+    box-shadow: 2px 2px 2px #606060;
+  }
+  #f9:hover{
     box-shadow: 2px 2px 2px #606060;
   }
 
@@ -546,6 +644,9 @@ h4{
     color: #202020;
     opacity: 1; /* Firefox */
   }
+
+  /* slideri*/
+
   
 
 

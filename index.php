@@ -9,27 +9,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <img src="img/book-64.png" id="ikone">
-        <ul id="lista">
-            <li class="listaLi">
-                <a class="linku" href="index.html">HOME</a>
-            </li>
-            <li class="listaLi">
-                <a class="linku" href="login.html">LOG IN</a>
-            </li>
-            <li class="listaLi">
-                <a class="linku" href="blog.html">BLOG</a>
-            </li>
-            <li class="listaLi">
-                <a class="linku" href="contactus.html">CONTACT US</a>
-            </li>
-            <li class="listaLi">
-                <a class="linku" href="aboutus.html">ABOUT US</a>
-            </li>
-        </ul>
-    </header>
+    <?php 
+
+      include 'inc/header.php';
+
+    ?>
     <div style="margin-bottom: 20px;"></div>
+
+  
 
     <p1 class="minititujt">New and Networthy</p1>
 
@@ -38,8 +25,11 @@
             <img class="fotoLibra" src="img/whitefragility.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>White Fragility</b></h3>
-              <p>English, Hardback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Hardback</p>
+                <p style="color: #327e8c;">12.99$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
            
         </div>
@@ -47,24 +37,33 @@
             <img class="fotoLibra" src="img/nomercy.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>No Mercy</b></h3>
-              <p>English, Hardback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Hardback</p>
+                <p style="color: #327e8c;">22.99$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
           <div class="cardd">
             <img class="fotoLibra" src="img/here.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>Here and Now</b></h3>
-              <p>English, Hardback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Hardback</p>
+                <p style="color: #327e8c;">34.99$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
           <div class="cardd">
             <img class="fotoLibra" src="img/whocares.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>Who Cares, Wins</b></h3>
-              <p>English, Hardback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Paperback</p>
+                <p style="color: #327e8c;">10.99$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
 
@@ -79,32 +78,44 @@
             <img class="fotoLibra" src="img/catch.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>The Catch</b></h3>
-              <p>English, Paperback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Paperback</p>
+                <p style="color: #327e8c;">40.99$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
           <div class="cardd">
             <img class="fotoLibra" src="img/disappear.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>How to Disappear</b></h3>
-              <p>English, Hardback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Hardback</p>
+                <p style="color: #327e8c;">31.99$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
           <div class="cardd">
             <img class="fotoLibra" src="img/normal.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>Normal people</b></h3>
-              <p>English, Hardback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Hardback</p>
+                <p style="color: #327e8c;">15.79$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
           <div class="cardd">
             <img class="fotoLibra" src="img/dead.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>Find them Dead</b></h3>
-              <p>English, Hardback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Paperback</p>
+                <p style="color: #327e8c;">19.99$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
 
@@ -119,32 +130,44 @@
             <img class="fotoLibra" src="img/hello.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>Hello Again</b></h3>
-              <p>English, Paperback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Paperback</p>
+                <p style="color: #327e8c;">16.68$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
           <div class="cardd">
             <img class="fotoLibra" src="img/ifi.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>If i can't have you</b></h3>
-              <p>English, Paperback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Paperback</p>
+                <p style="color: #327e8c;">8.99$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
           <div class="cardd">
             <img class="fotoLibra" src="img/catchh.jpg" alt="Avatar">
             <div class="karta">
               <h3><b>Catch and Kill</b></h3>
-              <p>English, Hardback</p>
-              <button>Buy!</button>
+              <div class="cmimi">
+                <p>English, Hardback</p>
+                <p style="color: #327e8c;">25.35$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
           <div class="cardd">
             <img class="fotoLibra" src="img/soyou.jpg" alt="Avatar">
             <div class="karta">
-              <h3><b>You think you've got Problems?</b></h3>
-              <p>English, Hardback</p>
-              <button>Buy!</button>
+              <h3><b>Got Problems?</b></h3>
+              <div class="cmimi">
+                <p>English, Hardback</p>
+                <p style="color: #327e8c;">13.45$</p>
+              </div>
+              <button class="btn">Buy!</button>
             </div>
           </div>
 
@@ -158,32 +181,44 @@
              <img class="fotoLibra" src="img/thehand.jpg" alt="Avatar">
              <div class="karta">
                <h3><b>The Handmaid's tale</b></h3>
-               <p>English, Hardback</p>
-               <button>Buy!</button>
+               <div class="cmimi">
+                <p>English, Paperback</p>
+                <p style="color: #327e8c;">21.99$</p>
+              </div>
+               <button class="btn">Buy!</button>
              </div>
            </div>
            <div class="cardd">
              <img class="fotoLibra" src="img/girl.jpg" alt="Avatar">
              <div class="karta">
                <h3><b>Girl, Woman and other</b></h3>
-               <p>English, Paperback</p>
-               <button>Buy!</button>
+               <div class="cmimi">
+                <p>English, Hardback</p>
+                <p style="color: #327e8c;">30.12$</p>
+              </div>
+               <button class="btn">Buy!</button>
              </div>
            </div>
            <div class="cardd">
              <img class="fotoLibra" src="img/gotta.jpg" alt="Avatar">
              <div class="karta">
                <h3><b>Gotta Get Theroux this</b></h3>
-               <p>English, Hardback</p>
-               <button>Buy!</button>
+               <div class="cmimi">
+                <p>English, Hardback</p>
+                <p style="color: #327e8c;">54.12$</p>
+              </div>
+               <button class="btn">Buy!</button>
              </div>
            </div>
            <div class="cardd">
              <img class="fotoLibra" src="img/house - Copy.jpg" alt="Avatar">
              <div class="karta">
                <h3><b>Slaughterhouse </b></h3>
-               <p>English, Hardback</p>
-               <button>Buy!</button>
+               <div class="cmimi">
+                <p>English, Hardback</p>
+                <p style="color: #327e8c;">30.45$</p>
+              </div>
+               <button class="btn">Buy!</button>
              </div>
            </div>
  
@@ -198,32 +233,44 @@
               <img class="fotoLibra" src="img/ballad.jpg" alt="Avatar">
               <div class="karta">
                 <h3><b>The Ballad</b></h3>
-                <p>English, Hardback</p>
-                <button>Buy!</button>
+                <div class="cmimi">
+                  <p>English, Hardback</p>
+                  <p style="color: #327e8c;">22.28$</p>
+                </div>
+                <button class="btn">Buy!</button>
               </div>
             </div>
             <div class="cardd">
               <img class="fotoLibra" src="img/orlando.jpg" alt="Avatar">
               <div class="karta">
                 <h3><b>Orlando King</b></h3>
-                <p>English, Paperback</p>
-                <button>Buy!</button>
+                <div class="cmimi">
+                  <p>English, Paperback</p>
+                  <p style="color: #327e8c;">33.33$</p>
+                </div>
+                <button class="btn">Buy!</button>
               </div>
             </div>
             <div class="cardd">
               <img class="fotoLibra" src="img/runaways.jpg" alt="Avatar">
               <div class="karta">
                 <h3><b>The Runaways</b></h3>
-                <p>English, Hardback</p>
-                <button>Buy!</button>
+                <div class="cmimi">
+                  <p>English, Hardback</p>
+                  <p style="color: #327e8c;">15.49$</p>
+                </div>
+                <button class="btn">Buy!</button>
               </div>
             </div>
             <div class="cardd">
               <img class="fotoLibra" src="img/life.jpg" alt="Avatar">
               <div class="karta">
                 <h3><b>Life and Fate</b></h3>
-                <p>English, Hardback</p>
-                <button>Buy!</button>
+                <div class="cmimi">
+                  <p>English, Hardback</p>
+                  <p style="color: #327e8c;">19.99$</p>
+                </div>
+                <button class="btn">Buy!</button>
               </div>
             </div>
   
@@ -236,35 +283,11 @@
     </div>
      
 
-    <footer>
-        <div>
-            <p class="teksti">RECEIVE NEWS, UPDATES AND SPECIAL OFFERS.</p>
-            <p class="teksti2"> Enter your email address here: </p>
-            <input id="emaili" type="email">
-            <div class="boxat">
-                <input class="checkbox" type="checkbox">
-                <p>I confirm I would like to receive emails from wordery.com</p>
-            </div>
-            <div class="boxat">
-                <input class="checkbox" type="checkbox">
-                <p>I agree to terms & conditions</p>
-            </div>
-            <button id="subscribe">SUBSCRIBE</button>
-
-        </div>
-        <div>
-            <p class="teksti">Contact us</p>
-            <div id="ikonat">
-                <img src="img/facebook-app-symbol.png" class="threeicons">
-                <img src="img/instagram.png" class="threeicons">
-                <img src="img/twitter.png" class="threeicons">
-            </div>
-            <p>+383 400 400</p>
-            <p>Rr.Hasan Prishtina, Peje</p>
-            <a onclick="topFunction()" id="myBtn"><img id="arrow" src="img/uparrow.png"></a>
-        </div>
-    </footer>
+    <?php
+        include 'inc/footer.php';
+    ?>
     <script src="script.js"></script>
+   
     </body>
-
+   
 </html>

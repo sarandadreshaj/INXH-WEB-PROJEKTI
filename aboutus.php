@@ -9,26 +9,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <img src="img/book-64.png" id="ikone">
-        <ul id="lista">
-            <li class="listaLi">
-                <a class="linku" href="index.html">HOME</a>
-            </li>
-            <li class="listaLi">
-                <a class="linku" href="login.html">LOG IN</a>
-            </li>
-            <li class="listaLi">
-                <a class="linku" href="blog.html">BLOG</a>
-            </li>
-            <li class="listaLi">
-                <a class="linku" href="contactus.html">CONTACT US</a>
-            </li>
-            <li class="listaLi">
-                <a class="linku" href="aboutus.html">ABOUT US</a>
-            </li>
-        </ul>
-    </header>
+       <?php 
+
+       include 'inc/header.php';
+
+       ?>
 
     <div id="aboutusdiv">
         <img id="inspiration" src="img/inspiration.png" alt="">
@@ -123,35 +108,10 @@
     </div>
 
     
-    <footer>
-        <div>
-            <p class="teksti">RECEIVE NEWS, UPDATES AND SPECIAL OFFERS.</p>
-            <p class="teksti2"> Enter your email address here: </p>
-            <input id="emaili" type="email">
-            <div class="boxat">
-                <input class="checkbox" type="checkbox">
-                <p>I confirm I would like to receive emails from wordery.com</p>
-            </div>
-            <div class="boxat">
-                <input class="checkbox" type="checkbox">
-                <p>I agree to terms & conditions</p>
-            </div>
-            <button id="subscribe">SUBSCRIBE</button>
-
-        </div>
-        <div>
-            <p class="teksti">Contact us</p>
-            <div id="ikonat">
-                <img src="img/facebook-app-symbol.png" class="threeicons">
-                <img src="img/instagram.png" class="threeicons">
-                <img src="img/twitter.png" class="threeicons">
-            </div>
-            <p>+383 400 400</p>
-            <p>Rr.Hasan Prishtina, Peje</p>
-            <a onclick="topFunction()" id="myBtn"><img id="arrow" src="img/uparrow.png"></a>
-        </div>
-    </footer>
-<script src="script.js"></script>
+   <?php
+    include 'inc/footer.php';
+   ?>
+       <script src="script.js"></script>
     </body>
 
 </html>
